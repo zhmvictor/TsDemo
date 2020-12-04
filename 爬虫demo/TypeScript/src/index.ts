@@ -1,7 +1,9 @@
 import express from 'express';
-import router from './router';
 import bodyParser from 'body-parser';
 import cookieSession from 'cookie-session';
+import './controller/LoginController';
+import './controller/CrowllerController';
+import router from './router';
 
 const app = express();
 
